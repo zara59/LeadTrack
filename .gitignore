@@ -1,0 +1,19 @@
+node_modules
+dist
+dist-ssr
+*.local
+.DS_Store
+.vite
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+*.log
+.idea
+.vscode/*
+!.vscode/extensions.json
+
+# Local environment (see backend/.env.example). The backend never needs secrets
+# committed — keep real .env files out of the repository.
+.env
+.env.*
+!.env.example

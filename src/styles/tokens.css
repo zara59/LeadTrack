@@ -1,0 +1,84 @@
+/* ---------------------------------------------------------------------------
+   LeadTrack design tokens.
+   Visual identity: white SaaS surfaces, blue -> purple gradient accents.
+   The gradient is reserved for brand moments (primary actions, active nav,
+   stat icons, decorative accents) and never used as a page background.
+--------------------------------------------------------------------------- */
+:root {
+  /* Surfaces */
+  --lt-bg: #f6f7fb;
+  --lt-surface: #ffffff;
+  --lt-surface-soft: #fafbfe;
+  --lt-surface-sunken: #f2f4fa;
+
+  /* Lines */
+  --lt-border: #e8eaf3;
+  --lt-border-strong: #d8dcea;
+
+  /* Text */
+  --lt-text: #1c1f2e;
+  --lt-text-soft: #4b5069;
+  --lt-text-muted: #757b96;
+  --lt-text-faint: #9aa0b8;
+
+  /* Brand */
+  --lt-blue: #3f76f6;
+  --lt-blue-deep: #2f5fe0;
+  --lt-indigo: #6366f1;
+  --lt-violet: #7c4df0;
+  --lt-purple: #9333ea;
+  --lt-gradient: linear-gradient(135deg, #4f7cf7 0%, #6a5bf7 52%, #8b3fe8 100%);
+  --lt-gradient-soft: linear-gradient(135deg, #eef2ff 0%, #f5efff 100%);
+  --lt-gradient-text: linear-gradient(120deg, #4f7cf7 0%, #8b3fe8 100%);
+
+  /* Status + support colours */
+  --lt-blue-soft: #eaf1ff;
+  --lt-blue-ink: #2f5fe0;
+  --lt-green: #10b981;
+  --lt-green-soft: #e6f8f1;
+  --lt-green-ink: #0a8f66;
+  --lt-amber: #f59e0b;
+  --lt-amber-soft: #fef4e2;
+  --lt-amber-ink: #b7791f;
+  --lt-rose: #f43f5e;
+  --lt-rose-soft: #fdecef;
+  --lt-rose-ink: #d02a4a;
+  --lt-slate-soft: #eef0f6;
+  --lt-slate-ink: #5c6380;
+
+  /* Metrics */
+  --lt-sidebar-w: 264px;
+  --lt-header-h: 72px;
+  --lt-content-max: 1320px;
+
+  /* Radii */
+  --lt-r-xs: 8px;
+  --lt-r-sm: 10px;
+  --lt-r-md: 14px;
+  --lt-r-lg: 18px;
+  --lt-r-xl: 24px;
+  --lt-r-pill: 999px;
+
+  /* Shadows — soft and minimal */
+  --lt-shadow-xs: 0 1px 2px rgba(24, 28, 56, 0.04);
+  --lt-shadow-sm: 0 1px 2px rgba(24, 28, 56, 0.05), 0 4px 12px -6px rgba(24, 28, 56, 0.08);
+  --lt-shadow-md: 0 2px 4px rgba(24, 28, 56, 0.04), 0 14px 30px -14px rgba(24, 28, 56, 0.16);
+  --lt-shadow-lg: 0 24px 60px -22px rgba(30, 26, 74, 0.28);
+  --lt-ring: 0 0 0 3px rgba(79, 124, 247, 0.22);
+
+  /* Type */
+  --lt-font: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto,
+    'Helvetica Neue', Arial, sans-serif;
+  --lt-font-mono: ui-monospace, SFMono-Regular, 'SF Mono', Menlo, Consolas, monospace;
+
+  /* Motion */
+  --lt-ease: cubic-bezier(0.4, 0, 0.2, 1);
+  --lt-dur: 180ms;
+
+  /* Layout rhythm */
+  --lt-gap-xs: 6px;
+  --lt-gap-sm: 10px;
+  --lt-gap: 16px;
+  --lt-gap-lg: 22px;
+  --lt-gap-xl: 30px;
+}
